@@ -1,0 +1,118 @@
+body{
+  position: relative;
+}
+
+.nav-link {
+    color: green;
+}
+.active {
+    background-color: green !important;
+}
+ 
+  .nav-link:hover{
+color: #00AC15;
+  }
+  .nav-link:active{
+    color: #00AC15;
+      }
+
+.btn-sucess {
+    background-color: green !important;
+
+}
+.btn {
+    background-color: green !important;
+
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #1c1c1d;
+  opacity: 0.8;
+
+}
+.adelante {
+  display: flex;
+  z-index: 999;
+  position: relative;
+
+}
+.conjunto {
+  min-height: 100vh;
+  position: relative;
+}
+
+
+.dwdwdwd{
+  background-color: rgba(2, 2, 2, 0.586);
+}
+
+
+.bg-label{
+  width: 100%;
+  background-color: #000000bd;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labelImg{
+  width: 70%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.653);
+  display: flex;
+  margin: 0 calc(15%);
+  justify-content: space-between;
+}
+
+.labelImg > img{
+  width: 60%;
+  object-fit: cover;
+}
+
+.labelImg > .information{
+  width: 40%;
+  padding: 10px;
+  background-color: white;
+  border-left: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.information > .control{
+  display: flex;
+  justify-content: end;
+}
+
+.control > .closeBtn{
+  border: none;
+  background: none;
+  padding: 5px 11px;
+  border-radius: 50%;
+ 
+ ;
+}
+
+
+.visible{
+  visibility: visible;
+}
+
+.no-visible{
+  visibility: hidden;
+}
